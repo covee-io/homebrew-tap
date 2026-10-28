@@ -5,10 +5,10 @@ cask "covee" do
   url "https://github.com/covee-io/covee/releases/download/v#{version}/Covee.dmg"
   name "Covee"
   desc "Connect to your own private network"
-  homepage "https://covee.io"
+  homepage "https://covee.io/"
 
-  depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
+  depends_on macos: :sequoia
 
   app "Covee.app"
 
