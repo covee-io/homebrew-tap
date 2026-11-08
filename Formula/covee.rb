@@ -1,28 +1,28 @@
 class Covee < Formula
   desc "Build and run your own private network"
   homepage "https://covee.io"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/covee-io/covee/releases/download/v0.1.0/covee_0.1.0_darwin_arm64.tar.gz"
-      sha256 "00c85bac960b549b35eecf41862c924e5520f13287d0d1d099440310b382cd94"
+      url "https://github.com/covee-io/covee/releases/download/v0.1.1/covee_0.1.1_darwin_arm64.tar.gz"
+      sha256 "c8c9a8ad07c539fc695b3af48bf701e7fdd131deed2fa5521cfcf0b22032f02b"
     end
     on_intel do
-      url "https://github.com/covee-io/covee/releases/download/v0.1.0/covee_0.1.0_darwin_amd64.tar.gz"
-      sha256 "d4341e3a97def51823114b8a8dfff5ea09d3f29dfb977746bdd0a003b1952e19"
+      url "https://github.com/covee-io/covee/releases/download/v0.1.1/covee_0.1.1_darwin_amd64.tar.gz"
+      sha256 "8e4eadec2489ab7ff472e45ab6db453ae5cea2ac1959809e63d6fb35893b9c64"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/covee-io/covee/releases/download/v0.1.0/covee_0.1.0_linux_arm64.tar.gz"
-      sha256 "fd19c7fb30b7002dbba2c845abcce613a420b95eebd2e5b3f503116495593729"
+      url "https://github.com/covee-io/covee/releases/download/v0.1.1/covee_0.1.1_linux_arm64.tar.gz"
+      sha256 "3fe281fdaad0ab3d7e636601834bc87b2ac90b6704394da45a82b1bf4d848a70"
     end
     on_intel do
-      url "https://github.com/covee-io/covee/releases/download/v0.1.0/covee_0.1.0_linux_amd64.tar.gz"
-      sha256 "c68586f666da080381caa9222f429ee44a9299c76ea61ded10311e17ee6d4a1c"
+      url "https://github.com/covee-io/covee/releases/download/v0.1.1/covee_0.1.1_linux_amd64.tar.gz"
+      sha256 "aa4f58e55dc2ceffa7626279d9669fadadfff83a5c4f7020d915ba8445306eae"
     end
   end
 

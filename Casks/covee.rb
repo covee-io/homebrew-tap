@@ -1,6 +1,6 @@
 cask "covee" do
-  version "0.1.0"
-  sha256 "7f782054a14d080a980a3000aace632b2f7e55d567a68e654751c7f4fa1ba61b"
+  version "0.1.1"
+  sha256 "00759c1cf684afb7a84360252c4b802564507ab35dcbd210e3fa506d4a8b2df7"
 
   url "https://github.com/covee-io/covee/releases/download/v#{version}/Covee.dmg"
   name "Covee"
